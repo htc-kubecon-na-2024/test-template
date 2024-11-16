@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-template"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "test-template"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
